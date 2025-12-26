@@ -1,0 +1,21 @@
+@keyframes changeColor {
+    from {
+        background-color: #11AA11;
+    }
+    to {
+        background-color: #AA1111;
+    }
+}
+
+html, body {
+	  position: fixed;
+  color: #00FFFF;
+  text-align: center;
+  animation: changeColor 135s linear infinite;
+}
+
+div {
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 80px;
+}
